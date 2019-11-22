@@ -1,6 +1,6 @@
 import requests
 import json
-from secret import appid
+appid = "29998b81207b8e7eb5fe9249ac00a20f"
 
 def weather_cluj():
     city = 'Cluj-Napoca'
