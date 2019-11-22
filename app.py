@@ -62,9 +62,3 @@ def reqcity():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-
-
-# @app.route("/weather/my-cities")
-# def weather_multiple_cities():
-#     return "Cluj-Napoca: 15, New York: 10"
