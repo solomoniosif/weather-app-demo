@@ -1,0 +1,22 @@
+{% extends 'layout.html'%}
+
+{% block body %}
+
+<div>
+    <h1 style="text-align: center">Current weather in {{ weather.city }}</h1>
+    <div class="box">
+        <article class="media">
+            <div class="media-center">
+                <figure class="image is-50x50">
+                    <img style="position: relative; display: inline-block; left: 50%; transform: translate(-50%);" src="http://openweathermap.org/img/w/{{ weather.icon }}.png" alt="Image">
+                </figure>
+            </div>
+        </article>
+    </div>
+    <p style="text-align: center">There are {{ weather.temperature }} Celsius degrees with a minimum of {{ weather.temp_min }} and a maximum of {{ weather.temp_max }}</p>
+    <p style="text-align: center">Short weather description : {{ weather.description }}</p>
+    <p style="text-align: center">Humidity : {{ weather.humidity }} %    |     Wind speed : {{ weather.wind_speed }} m/sec</p>
+    <p style="text-align: center">Atmospheric pressure : {{ weather.pressure }} mbar</p>
+    <br></br>
+</div>
+{% endblock %}
