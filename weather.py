@@ -23,48 +23,6 @@ def weather(city_name):
     }
     return weather_d
 
-# def weather_cluj():
-#     city = 'Cluj-Napoca'
-#     weather_d = weather(city)
-#     return weather_d
-
-
-# def weather_lisbon():
-#     city = 'Lisbon'
-#     weather_d = weather(city)
-#     return weather_d
-
-
-# def weather_tirana():
-#     city = 'Tirana'
-#     weather_d = weather(city)
-#     return weather_d
-
-
-# def weather_dublin():
-#     city = 'Dublin'
-#     weather_d = weather(city)
-#     return weather_d
-
-
-# def weather_budapest():
-#     city = 'Budapest'
-#     weather_d = weather(city)
-#     return weather_d
-
-
-# def weather_berlin():
-#     city = 'Berlin'
-#     weather_d = weather(city)
-#     return weather_d
-
-
-# def weather_bergen():
-#     city = 'Bergen'
-#     weather_d = weather(city)
-#     return weather_d
-
-
 def weather_other(city):
     weather_d = weather(city)
     return weather_d
